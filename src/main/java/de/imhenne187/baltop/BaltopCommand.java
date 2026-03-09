@@ -10,7 +10,7 @@ public class BaltopCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (!(sender instanceof Player player)) {
-            sender.sendMessage("§cFor Players only");
+            sender.sendMessage("\u001B[32m[VV Stats]:\u001B[0m Command for Players only");
             return true;
         }
 
